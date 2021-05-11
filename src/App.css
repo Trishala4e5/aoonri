@@ -1,0 +1,20 @@
+.App{
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+.body{
+    height:0;
+    width: 0;
+}
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+    
+}

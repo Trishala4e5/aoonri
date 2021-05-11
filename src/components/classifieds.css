@@ -1,0 +1,18 @@
+.classifieds{
+    font-size: 25px;
+    height: auto;
+    width:100%;
+
+}
+h3{
+    text-align: left;
+    padding-top: 50px;
+    padding-right: 600px ;
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+hr{
+    border-width: 1px;
+    margin-top: -1em;
+    width:80%;
+}
