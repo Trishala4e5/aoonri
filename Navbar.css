@@ -1,0 +1,70 @@
+.Navbar{
+    background:lightblue;
+    width: 100%;
+    height: 80px;
+    display:flex;
+}
+.Navbar .leftSide{
+    flex:50%;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+    left:120px;
+}
+.Navbar .leftSide .h1{
+    justify-content: center;
+    align-items:center;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.Navbar .rightSide{
+    display:flex;
+    flex:50%;
+    justify-content: flex-end;
+    align-items: center;    
+}
+.Navbar .rightSide .links a {
+    text-decoration: none;
+    margin-right:15px;
+    color:black;
+    font-size: 20px; 
+    
+}
+.Navbar .rightSide button{
+    display:none;
+    margin-right: 200px;
+}
+.Navbar .rightSide #hidden{
+    display: flex;
+}
+@media only screen and (max-width:850px){
+    .Navbar .rightSide .links a{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:750px){
+    .Navbar .rightSide button{
+        display:flex;
+    }
+    .Navbar .rightSide .links {
+        display:none;
+    }
+    .Navbar .rightSide #hidden{
+        position: absolute;
+        right:0px;
+        top:80px;
+        height:230px;
+        max-height:280px;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        background-color: lightblue;
+    }
+    .Navbar .rightSide #hidden a{
+        margin:20px;
+        font-size: 25px;
+    }
+
+}
